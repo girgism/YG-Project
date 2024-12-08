@@ -1,0 +1,90 @@
+.main {
+  /* background-color: brown; */
+  background-image: url(../Images/home.png);
+  background-size: cover;
+  height: 100vh !important;
+  position: relative;
+}
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("../Images/home.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  color: #fca91e;
+}
+
+.overlay-text {
+  /* background: rgba(0, 0, 0, 0.5); Adds a semi-transparent black background */
+  padding: 1.2em;
+  border-radius: 2em;
+}
+
+.overlay-text h1 {
+  font-size: 3rem; /* Adjust heading size */
+  margin-bottom: 2rem;
+}
+
+.overlay-text p {
+  font-size: 1.8rem;
+}
+
+/* Line */
+.hr-line {
+  height: 0.6em;
+  margin-bottom: 0%;
+  background-color: #e38b22;
+}
+/* Buttons */
+.btns {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e0c08;
+}
+.btns .btn-out,
+.btn-in {
+  color: white;
+  font-weight: bold;
+  width: 7em;
+  background-color: #fca91e;
+  border-radius: 1em;
+}
+
+.btns .btn-between {
+  color: white;
+  background-color: #fca91e;
+  width: 3em;
+  border-radius: 50%;
+}
+.btns .btn-in {
+  color: white;
+  font-weight: bold;
+  background-color: #fca91e;
+  border-radius: 1em;
+}
+
+.btns .btn-out:hover {
+  background-color: #fca91e;
+}
+.btns .btn-in:hover {
+  background-color: #fca91e;
+}
