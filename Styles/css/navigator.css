@@ -1,0 +1,64 @@
+.main {
+  background-image: url(../../Images/background.jpeg);
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.text-header {
+  color: #f1d156;
+  text-align: center;
+  padding: 1em;
+}
+.central-circle {
+  width: 17.5rem;
+  height: 17.5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 6.5rem;
+  margin-top: 0.5em;
+}
+
+.img-fluid {
+  transition: transform -50.5s ease;
+  width: 20rem;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+.position-relative {
+  position: relative;
+}
+
+.overlay-text {
+  font-weight: bold;
+  position: absolute;
+  top: 33%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  pointer-events: none; /* Ensures that clicking the text doesn't interfere with the link */
+}
+
+.btn-in {
+  color: white;
+  font-weight: bold;
+  background-color: #fca91e;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+.btn-in:hover {
+  background-color: #fca91e;
+}
