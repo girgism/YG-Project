@@ -27,6 +27,14 @@ body {
   margin-top: 0.5em;
 }
 
+@media (max-width: 992px) {
+  .col-md-2 img {
+    margin-bottom: 1.5rem;
+  }
+ 
+}
+
+
 .img-fluid {
   transition: transform -50.5s ease;
   width: 20rem;

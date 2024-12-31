@@ -7,3 +7,30 @@
   margin: 0;
   padding: 0;
 }
+
+.gb-color{
+  background-color: #1e0c08;
+
+}
+
+.nav-link, .navbar-brand,.dropdown-item,.nav-link.dropdown-toggle{
+  color: white;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+  color: #fca91e;
+  text-decoration: none;
+}
+
+.navbar-toggler,.dropdown-item:hover{
+  background-color: #fca91e;
+  text-decoration: none;
+
+}
+
+.dropdown-menu{
+  background-color: #1e0c08;
+  text-decoration: none;
+}
