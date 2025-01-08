@@ -40,7 +40,7 @@ ul a {
 }
 
 .main {
-  background-image: url("/Images/background.jpeg");
+  background-image: url(../../Images/background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,7 +50,7 @@ ul a {
 .circle {
   width: 220px;
   height: 220px;
-  background-image: url(/Images/center.PNG);
+  background-image: url(../../Images/center.PNG);
   background-size: contain;
   background-position: center;
   border: none;
