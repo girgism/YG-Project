@@ -63,7 +63,7 @@
 
 .image-header {
   width: 100%;
-  height: 38em;
+  height: 50em;
   position: relative;
 }
 
@@ -131,9 +131,9 @@
   background-color: #8abd93;
   padding: 0.5rem;
 }
-.first-first-text p {
+/* .first-first-text p {
   padding-bottom: 17.5em;
-}
+} */
 
 .text-col-2 {
   padding: 2.4rem;
@@ -166,7 +166,7 @@
 }
 .third-img {
   background-color: #d5e5d6;
-  margin-top: -30rem;
+  margin-top: -20rem;
   margin-right: 0.3rem;
 }
 .second-text {
@@ -181,7 +181,7 @@
 
 .second-text-row {
   background-color: #dadfa6;
-  padding-bottom: 15em;
+  padding-bottom: 13em;
 }
 .second-img-row {
   background-color: #dadfa6;
@@ -201,16 +201,16 @@
   padding: 2rem;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .third-img,
   .second-img {
     margin-top: -5rem;
   }
-}
+} */
 
-@media (min-width: 400px) {
+/* @media (min-width: 400px) {
   .third-img,
   .second-img {
     margin-top: -5rem;
   }
-}
+} */
