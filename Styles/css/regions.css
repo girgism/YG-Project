@@ -177,11 +177,12 @@
 .third-text {
   background-color: #d5e5d6;
   padding: 0.5rem;
+  width: 58%;
 }
 
 .second-text-row {
   background-color: #dadfa6;
-  padding-bottom: 13em;
+  padding-bottom: 5.5em;
 }
 .second-img-row {
   background-color: #dadfa6;
